@@ -1,0 +1,21 @@
+The selected Target size is 200
+Welcome to Pricer
+Enter the log messages in the format of TIMESTAMP A/R Order-id Side Price Size
+java.lang.ArrayIndexOutOfBoundsException: 1
+java.lang.ArrayIndexOutOfBoundsException: 1
+28800758 S 8832.56
+28800758 S NA
+28800812 S 8832.56
+28800974 B 8865.0
+28800773 B NA
+28800812 S NA
+28800562 S 8806.5
+28800812 S NA
+28813830 B 8845.0
+28813830 B 8836.0
+28815804 S 8804.25
+28813830 B 8845.0
+28813830 B 8840.0
+java.lang.ArrayIndexOutOfBoundsException: 1
+Exiting from the program
+Time Took-10782 ms
