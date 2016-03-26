@@ -1,0 +1,12 @@
+1) How did you choose your implementation language?
+   I chose java because its fast and easy to understand when reading the code and it's also elegant. 
+2) What is the time complexity for processing an Add Order message?
+   The time complexity for add order message is o(n) in the worst case scenario. This involves finding the right spot in the list and maintaining the list
+   in the sorted order which helps in calculating income and expense in o(n) by maintaining the list in the sorted order.
+3) What is the time complexity for processing a Reduce Order message?
+   The time complexity for reduce order message is o(n) in the worst case scenario. This involves finding the right spot in the list and maintaining the list
+   in the sorted order which helps in calculating income and expense in o(n) by maintaining the list in the sorted order.
+4) If your implementation were put into production and found to be too slow, what ideas would you try out to improve its performance?
+   I will store the values in tree instead of list, which can bring down the add or reduce message complexity to O(logn). I will also try to see if I can cache the 
+   values based on the pattern of repition for large set of values because caching requires another data structure.
+

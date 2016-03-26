@@ -1,0 +1,15 @@
+The input is given in the form of a file. The filename has to be provided through stdin.
+The output will be stored in the file with the name "output.txt"
+The command for starting the program is as shown in the below line:  
+java Pricer {target size}
+
+Sample Implementation.
+
+harshanooka@Achilles:~/Workspace/Pricer/src$ java Pricer 200
+The selected Target size is 200
+Welcome to Pricer
+Please enter the input file name
+pricer.in
+The output is stored in output.txt
+Exiting from the Pricer
+
